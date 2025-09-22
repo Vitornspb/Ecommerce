@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>VN Tech | Sua loja de tecnologia</title>
+    <meta name="description" content="TechStore - Compre os melhores eletrônicos com até 50% de desconto. Promoção Black Friday!">
+    
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon (opcional) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+            <h1>VN Tech</h1>
+        </div>
+        <div class="search-container">
+            <input type="search" placeholder="Buscar produtos..." class="search-input" aria-label="Buscar produtos">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <!-- MENU SUPERIOR -->
+    <div class="categories-container">
+        <nav class="categories-bar">
+
+            <button type="button" class="category-btn active" data-category="all" aria-label="Todos">
+                <i class="fa-solid fa-border-all" aria-hidden="true"></i>
+                Todos
+            </button>
+
+            <button type="button" class="category-btn" data-category="smartphones" aria-label="Smartphones">
+                <i class="fa-solid fa-mobile" aria-hidden="true"></i>
+                Smartphones
+            </button>
+
+            <button type="button" class="category-btn" data-category="laptops" aria-label="Notebooks">
+                <i class="fa-solid fa-laptop" aria-hidden="true"></i>
+                Notebooks
+            </button>
+
+            <button type="button" class="category-btn" data-category="headphones" aria-label="Fones">
+                <i class="fa-solid fa-headphones" aria-hidden="true"></i>
+                Fones
+            </button>
+
+            <button type="button" class="category-btn" data-category="acessorios" aria-label="Acessórios">
+                <i class="fa-regular fa-keyboard" aria-hidden="true"></i>
+                Acessórios
+            </button>
+
+            <button type="button" class="category-btn" data-category="smartwatch"
+            aria-label="Smartwatches">
+                <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                Smartwatches
+            </button>
+
+        </nav>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero-section">
+        <h2>Black Friday Antecipada</h2>
+        <p>Até 50% de desconto em produtos selecionados</p>
+    </section>
+
+    <!-- ITENS -->
+    <main class="products">
+        <section class="products-container"></section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>2025 - VN Tech. Todos os Direitos Reservados</p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
